@@ -1,0 +1,17 @@
+{
+  "name": "backend-skeleton",
+  "version": "1.0.0",
+  "description": "node, express and mongodb",
+  "main": "server.js",
+  "author": "DMawi17",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.9"
+  }
+}

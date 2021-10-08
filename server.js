@@ -6,7 +6,7 @@ import mongoose from "mongoose";
 
 const app = express();
 
-app.use(express.json()); // parse body params and attache to req.body
+app.use(express.json()); // parse body params
 app.use("/", userRoutes); // mount routes
 
 dotenv.config();
